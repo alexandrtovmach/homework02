@@ -16,8 +16,9 @@ body {
     flex-direction: column;
     min-width: 304px;
     overflow-x: hidden;
-    background-image: url("http://www.escaperoomunlocked.com/wp-content/uploads/2016/01/014033223-html-computer-code-background-.jpg");
+    background-image: url("../img/bg_desktop.jpg");
     background-size: cover;
+    background-color: rgb(8,96,114);
     background-attachment: fixed;
     background-repeat: no-repeat;
     font-family: lucida console, consolas, Arial, sans-serif;
@@ -36,30 +37,28 @@ body {
 #wallarper {
     position: fixed;
     z-index: 10;
-    top: -20vh;
-    right: -5000px;
-    width: 3000px;
-    height: 2000px;
-    transform: rotate(114deg);
+	top: -100%;
+	bottom: -100%;
+    right: 150%;
+    width: 150%;
+    transform: rotate(24deg);
     background: rgb(8,96,114);
     animation-name: openAnim;
-    animation-duration: 2.5s;
+    animation-duration: 3.5s;
     animation-timing-function: linear;
     opacity: 0;
 }
 @keyframes openAnim {
     0% {
-        width: 3000px;
-        height: 2000px;
-        right: -50vw;
+        right: -50%;
         opacity: 1;
     }
-    90% {
-        right: calc(100vw - 260px);
+    70% {
+        right: calc(100% + 0.5vw);
         opacity: 1;
     }
     100% {
-        right: calc(100vw - 264px);
+        right: calc(100% + 1vw)%;
         opacity: 0;
     }
 }
@@ -180,6 +179,10 @@ header {
 }
 .h_menu_block {
     flex: 0 1 100px;
+}
+/*------panelBar hidden for all exept small devices*/
+.h_panelBar {
+	display: none;
 }
 /*content*/
 .content {

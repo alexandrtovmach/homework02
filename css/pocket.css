@@ -16,7 +16,7 @@ body {
     flex-direction: column;
     min-width: 304px;
     overflow-x: hidden;
-    background-image: url("http://www.escaperoomunlocked.com/wp-content/uploads/2016/01/014033223-html-computer-code-background-.jpg");
+    background-image: url("../img/bg_pocket.jpg");
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -103,6 +103,7 @@ header {
 .h_search {
     display: flex;
     flex-wrap: nowrap;
+	margin: 5px 5px 0 5px;
 }
 .h_search input {
     width: 150px;
@@ -135,6 +136,10 @@ header {
 }
 .h_menu_block {
     flex: 0 1 100px;
+}
+/*------panelBar hidden for all exept small devices*/
+.h_panelBar {
+	display: none;
 }
 /*content*/
 .content {
