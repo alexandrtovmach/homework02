@@ -184,14 +184,15 @@ header {
 }
 /*----article*/
 .c_article {
-    flex: 6 0 a4uto;
+    flex: 6 0 auto;
 }
 /*------page main info*/
 .c_ar_content {
-    width: calc(100vw - 2*5px);
+    width: calc(100vw - 2*10px);
     height: calc(100vh - 100px - 2*10px);
     display: flex;
     flex-direction: column;
+    padding: 0 10px 0 10px;
 	font-size: 30px;
     cursor: default;
 }

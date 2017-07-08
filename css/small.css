@@ -121,7 +121,6 @@ header {
 }
 .h_search img {
     height: 40px;
-    height: 40px;
     border: 2px solid rgb(8,96,114);
     border-left-width: 1px;
     border-radius: 0 5px 5px 0;
@@ -194,16 +193,16 @@ header {
 }
 /*----article*/
 .c_article {
-    flex: 6 0 a4uto;
+    flex: 6 0 auto;
 }
 /*------page main info*/
 .c_ar_content {
-    width: calc(100vw - 2*18.5px);
+    width: calc(100vw - 2*10px);
     height: calc(100vh - 100px - 2*10px);
     display: flex;
 	padding: 0 10px 0 10px;
     flex-direction: column;
-	font-size: 30px;
+	font-size: 25px;
     cursor: default;
 }
 .main {
